@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+# Name : DHINESH M
+# Roll no :212223040040
+# Date of experiment : 01/09/2025
 
 
 
@@ -78,30 +78,132 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+org 100h
 
+mov al,88h
+mov bl,65h
+add al,bl
+
+ret
+```
 
 
 ## Output  
- 
+
+ <img width="1908" height="1190" alt="Screenshot 2025-08-31 183306" src="https://github.com/user-attachments/assets/271bc294-9c5f-45c5-88da-0c6276e72364" />
+
 ## Subtraction   of 8 bit numbers  ALP 
+```
+org 100h
+
+mov al,84h
+mov bl,63h
+sub al,bl
+
+ret
+```
  
-## Output  
+## Output
+<img width="1920" height="1200" alt="Screenshot 2025-08-31 183428" src="https://github.com/user-attachments/assets/d364ebbe-189e-4946-9537-e0a7f227b2b9" />
+
 ## Multiplication alp 
+```
+org 100h
+
+mov al,75h
+mov bl,32h
+mul bl
+
+ret
+```
  ## Output  
+<img width="1920" height="1200" alt="Screenshot 2025-08-31 183644" src="https://github.com/user-attachments/assets/f020309c-fb01-4f89-82ea-40b25204e37f" />
 
 
 ## Division alp 
+```
+org 100h  
+
+mov al,68h
+mov bl,18h
+div bl
+
+ret
+```
 
 ## Output  
+<img width="1920" height="1200" alt="Screenshot 2025-08-31 183815" src="https://github.com/user-attachments/assets/ac0fab71-4200-4642-867b-53c0d9b1fb49" />
+
+## AND alp
+```
+org 100h
+
+mov al,44h
+mov bl,98h
+and al,bl
+
+ret
+```
+## Output 
+<img width="1920" height="1200" alt="Screenshot 2025-08-31 184742" src="https://github.com/user-attachments/assets/2fdcc8e5-3acf-4ac8-b840-cef89b28bf18" />
+
+## OR alp
+```
+org 100h
+
+mov al,45h
+mov bl,66h
+or al,bl
+
+ret
+```
+## Output
+<img width="1920" height="1200" alt="Screenshot 2025-08-31 184337" src="https://github.com/user-attachments/assets/a404e88e-e58a-4b6d-b71f-812ef740f668" />
+
+## NOT alp
+```
+org 100h
+
+mov al,60h
+not al
+
+ret
+
+```
+## Output
+<img width="1919" height="1137" alt="Screenshot 2025-09-01 094812" src="https://github.com/user-attachments/assets/31dd005d-36ae-4b2c-9041-41cd6428bccf" />
+
+
+## XOR alp
+```
+org 100h
+
+mov al,99h
+mov bl,60h
+xor al,bl
+
+ret
+```
+## Output
+<img width="1920" height="1200" alt="Screenshot 2025-08-31 185015" src="https://github.com/user-attachments/assets/7397e51c-2f23-4d4a-bdc6-e7ea33b550bc" />
+
+## NAND alp
+```
+org 100h
+
+MOV al,0BH
+MOV bl,05H
+AND al,bl
+NOT bl
+
+ret
+```
+## Output
+<img width="1908" height="1190" alt="Screenshot 2025-09-01 193626" src="https://github.com/user-attachments/assets/77e58786-dfd6-406a-a0ab-40ec9b0c24ac" />
+
 
 
 ## Result :
- 
 
-
-
-
-
-
-
-
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed
